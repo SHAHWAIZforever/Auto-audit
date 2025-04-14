@@ -1129,3 +1129,9 @@ ul.arrow-list li::before {
   transform: translateY(0); /* Final position */
 } 
 
+@media (max-width: 769px) {
+  [class*="col-"] {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
