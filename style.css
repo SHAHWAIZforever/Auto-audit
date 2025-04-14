@@ -1128,10 +1128,4 @@ ul.arrow-list li::before {
   opacity: 1;
   transform: translateY(0); /* Final position */
 } 
-@media (max-width: 768px) {
-  .container-fluid {
-    padding: 0% 8%;
-  }
-}
-
 
