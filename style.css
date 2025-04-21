@@ -31,9 +31,10 @@ body{
 
   /* Transparent navbar with white text */
   .navbar {
-    padding:0px 8px;
+   
     background: rgba(0, 0, 0, 0.267) !important;
     backdrop-filter: blur(10px); /* Apply a blur effect */
+     padding:0px 5px;
   }
 
 
