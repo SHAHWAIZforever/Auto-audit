@@ -31,10 +31,8 @@ body{
 
   /* Transparent navbar with white text */
   .navbar {
-   
     background: rgba(0, 0, 0, 0.267) !important;
     backdrop-filter: blur(10px); /* Apply a blur effect */
-     padding:0px 5px;
   }
 
 
@@ -1131,11 +1129,16 @@ ul.arrow-list li::before {
   transform: translateY(0); /* Final position */
 } 
 
+
 @media (max-width: 769px) {
   [class*="col-"] {
     padding-left: 20px;
     padding-right: 20px;
   }
-
+  .navbar{
+    padding-left: 4px;
+    padding-right: 4px;
+  }
 }
+
 
